@@ -1,10 +1,9 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import { BiSolidGraduation } from "react-icons/bi";
+import swiftWheelsImg from "@/public/swiftWheels.png";
+import aplusEssayImg from "@/public/aplusEssay.png";
+import emojimamaImg from "@/public/emojimama.png";
 
 export const links = [
   {
@@ -35,73 +34,205 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+    title: "Account Servicing Executive",
+    location: "Hong Kong",
+    company: "New iMedia Solutions ",
+    description: [
+      {
+        duties:
+          "Accounts Served: B.M.W Concessionaires (H.K.), Blue Girl Beer, Crocs, Columbia, Cath Kidston, UGG, Dell Technologies.",
+      },
+      {
+        duties: `Managed and nurtured a diverse portfolio of 20+ accounts across various industries including Retails, Beauty, Skincare, Finance,
+          Technology, Education, Logistics sectors.`,
+      },
+      {
+        duties:
+          "Revamped Watson’s Wine and Fortress apps, modernizing the interface, resulting in a 20% increase in user retention.",
+      },
+      {
+        duties: `Formulated strategic plans and executed various advertising campaigns with an annual budget of over CAD 3M and an average of CAD
+          250k per month.`,
+      },
+      {
+        duties: `Conducted comprehensive data analysis to optimize campaign performance for clients, resulting in a remarkable 300% increase in the
+          conversion rate of landing pages across the company. Moreover, achieved an impressive 10X ROAS for both online and offline events.`,
+      },
+      {
+        duties: `Engaged in meticulous planning and thorough evaluation of clients' social media profiles, covering areas such as web design, SEO, Copy
+          writing and Google Analytics. Capitalized on user behavior insights and market trends to steer strategic decision-making.`,
+      },
+    ],
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "03-2021 - 03-2022",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+    title: "MicroMaster in A.I. & Programming",
+    location: "Hong Kong",
+    company: "Tecky Academy ",
+    description: [
+      {
+        duties:
+          "16-week intensive program designed to equip individuals from diverse backgrounds with the skills to become Full Stack Developers.",
+      },
+      {
+        duties: `Web Fundamentals with JS: JavaScript, HTML, CSS, Data Structures & Algorithms.`,
+      },
+      {
+        duties:
+          "Web Server Programming: Node, Typescript, Express, PostgreSQL.",
+      },
+      {
+        duties: `Backend & AI Development: Jest, Knex, DevOps, Python, Tensorflow.`,
+      },
+      {
+        duties: `Frontend Development: React, React Native, Ionic, Redux, Docker`,
+      },
+    ],
+    icon: React.createElement(BiSolidGraduation),
+    date: "03-2021 - 03-2022",
+  },
+  {
+    title: "Software Engineer",
+    location: "Hong Kong",
+    company: "A.S Watson Group",
+    description: [
+      {
+        duties: `Successfully developed and launched Watsons applications across 8 countries in App Store and Google Play
+        (Malaysia, Philippines, Singapore, Taiwan, Hong Kong, Indonesia, Vietnam, and India), 
+        securing an impressive 10 million+ downloads across diverse regions and platforms. contributing to monthly revenue of $1 billion.
+      `,
+      },
+      {
+        duties:
+          "Leveraged React Native, Objective C, and Kotlin to ensure seamless cross-platform performance and exceptional user experiences.",
+      },
+      {
+        duties:
+          "Revamped Watson’s Wine and Fortress apps, modernizing the interface, resulting in a 20% increase in user retention.",
+      },
+      {
+        duties:
+          "Integrated multiple third-party systems with the escrow platform, including Alipay, PayMe by HSBC, LINE Pay, etc.",
+      },
+      {
+        duties:
+          "Engineered an efficient deployment process by refining and optimizing configuration YAML files",
+      },
+    ],
+    icon: React.createElement(CgWorkAlt),
+    date: "09-2022 - 07-2023",
+  },
+  {
+    title: "Software Engineer",
+    location: "Hong Kong (Remote) - Part Time",
+    company: "Growth To Code",
+    description: [
+      {
+        duties:
+          "Crafted custom themes, templates, and plugins for precise project alignment, fostering scalability and innovation.",
+      },
+      {
+        duties:
+          "Set industry benchmarks with code quality, adhering to best practices for resilient and maintainable websites.",
+      },
+      {
+        duties:
+          "Pioneered WordPress advancements, driving cutting-edge solutions that elevated projects and workflows",
+      },
+      {
+        duties:
+          "Optimized for speed and SEO, translating into exceptional user experiences and remarkable organic growth.",
+      },
+      {
+        duties:
+          "Transformed complex project requirements into captivating web interfaces, enhancing engagement and satisfaction.",
+      },
+    ],
+    icon: React.createElement(CgWorkAlt),
+    date: "07-2022 - Current",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Swift Wheel",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "The platform offers a convenient and user-friendly website where individuals can access a range of rental car services.",
+    tags: ["React", "Next.js", "React ", "Tailwind", "Tailwind "],
+    imageUrl: swiftWheelsImg,
   },
   {
-    title: "rmtDev",
+    title: "A Plus Essay",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "A mobile app that connects students to tutors for instant private learning sessions.",
+    tags: [
+      "React Native ",
+      "React",
+      "Typescript",
+      "NativeBase",
+      "Express.js",
+      "Node.js",
+      "PostgreSQL",
+      "AWS EC2",
+      "AWS S3",
+    ],
+    imageUrl: aplusEssayImg,
   },
   {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    title: "Emoiji Mama",
+    description: `An AI mini-game project where the AI attempts to identify objects based on what it 'sees', helping locate the emoji 
+      displayed in the real world using the camera on your phone or laptop. Have Fun!`,
+    tags: [
+      "Javascript",
+      "Typescript",
+      "Python",
+      "YOLOv5",
+      "Playwright",
+      "Express.js",
+      "Node.js",
+      "PostgreSQL",
+      "AWS EC2",
+      "AWS S3",
+    ],
+    imageUrl: emojimamaImg,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
   "JavaScript",
   "TypeScript",
   "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
+  "Next.js",
+  " Three.js",
+  "React Native ",
+  "Flutter",
+  " Objective-C",
+  "Node",
   "Express",
-  "PostgreSQL",
   "Python",
-  "Django",
-  "Framer Motion",
+  "Tailwind",
+  "PostgreSQL",
+  "MongoDB",
+  " CI/CD ",
+  "DevOps",
+  "Jest",
+  "Unit Testing",
+  "Tensorflow",
+  "YOLOv5",
+  "Firebase",
+  "Fastlane",
+  "AWS S3",
+  "AWS EC2",
+  "Git",
+  "Jira",
+  "Google Analytic ",
+  "Google Tag Manager",
+  "Google Ads",
+  "Locker Studio",
+  "SEMrush",
+  "Arefs",
+  "Hotjar",
+  "Figma",
 ] as const;
