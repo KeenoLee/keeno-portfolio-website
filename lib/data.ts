@@ -126,7 +126,7 @@ export const experiencesData = [
   {
     title: "Software Engineer",
     location: "Hong Kong (Remote) - Part Time",
-    company: "Growth To Code",
+    company: "Code To Growth",
     description: [
       {
         duties:
@@ -150,7 +150,7 @@ export const experiencesData = [
       },
     ],
     icon: React.createElement(CgWorkAlt),
-    date: "07-2022 - Current",
+    date: "07-2023 - Current",
   },
 ] as const;
 
@@ -160,6 +160,8 @@ export const projectsData = [
     description:
       "The platform offers a convenient and user-friendly website where individuals can access a range of rental car services.",
     tags: ["React", "Next.js", "React ", "Tailwind", "Tailwind "],
+    sourceCode: "https://github.com/KeenoLee/swift-wheels",
+    liveDemo: "https://swift-wheels.vercel.app/",
     imageUrl: swiftWheelsImg,
   },
   {
@@ -177,6 +179,8 @@ export const projectsData = [
       "AWS EC2",
       "AWS S3",
     ],
+    sourceCode: "https://github.com/KeenoLee/a-plus-essay",
+    liveDemo: "",
     imageUrl: aplusEssayImg,
   },
   {
@@ -195,6 +199,8 @@ export const projectsData = [
       "AWS EC2",
       "AWS S3",
     ],
+    sourceCode: "https://github.com/KeenoLee/emoji-mama",
+    liveDemo: "",
     imageUrl: emojimamaImg,
   },
 ] as const;
