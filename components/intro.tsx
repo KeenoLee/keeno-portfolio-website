@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/keeno_icon.jpg"
+              src="/keeno_header_icon.jpg"
               alt="Keeno Lee"
               width="192"
               height="192"
