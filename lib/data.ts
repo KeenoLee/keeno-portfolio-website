@@ -90,10 +90,10 @@ export const experiencesData = [
       },
     ],
     icon: React.createElement(BiSolidGraduation),
-    date: "03-2021 - 03-2022",
+    date: "03-2022 - 07-2022",
   },
   {
-    title: "Software Engineer",
+    title: "Software Developer",
     location: "Hong Kong",
     company: "A.S Watson Group",
     description: [
@@ -121,12 +121,12 @@ export const experiencesData = [
       },
     ],
     icon: React.createElement(CgWorkAlt),
-    date: "09-2022 - 07-2023",
+    date: "07-2022 - 07-2023",
   },
   {
-    title: "Software Engineer",
-    location: "Hong Kong (Remote) - Part Time",
-    company: "Code To Growth",
+    title: "Software Developer",
+    location: "Hong Kong (Remote) - Freelance",
+    company: "Playsmart",
     description: [
       {
         duties:
@@ -151,6 +151,43 @@ export const experiencesData = [
     ],
     icon: React.createElement(CgWorkAlt),
     date: "07-2023 - Current",
+  },
+  {
+    title: "Digital Marketing and Software Developer",
+    location: "Toronto, ON",
+    company: "Caviar Centre",
+    description: [
+      {
+        duties:
+          "Led email marketing automation, boosting open rates by 64%, doubling orders, and increasing average order values by 138%.",
+      },
+      {
+        duties:
+          "Directed a comprehensive website redesign that resonated with the audience, as evidenced by a surge in subscription rates of over 100%, achieving 1,280 new subscribers in a mere two weeks, signaling increased market engagement.",
+      },
+      {
+        duties:
+          "Utilized Google Analytics to dissect user behavior, reducing bounce rates by 25% through informed website enhancements.",
+      },
+      {
+        duties:
+          "Revamped Google Ads campaigns, achieving a commendable 90% average increase in optimization scores and a 242% rise in conversion rates from 3.8% to 13% through the strategic use of Performance Max and Dynamic Search Ads, coupled with a Maximum Conversion bidding strategy—all while adeptly reallocating the existing budget based on performance metrics.",
+      },
+      {
+        duties:
+          "Built pages, templates, troubleshoot issues, develop workarounds, recommend design tweaks and UX enhancements, and find or enhance appropriate plugins to best display content.",
+      },
+      {
+        duties:
+          "Resolved complex technical issues impacting SEO performance, such as improving site speed and mobile responsiveness, which led to a 40% improvement in search engine rankings for key sections of the site.",
+      },
+      {
+        duties:
+          "Collaborated with cross-functional teams to refine content strategy, integrating SEO best practices and keyword research that improved page rankings for 80% of targeted keywords, significantly enhancing online presence and lead generation.",
+      },
+    ],
+    icon: React.createElement(CgWorkAlt),
+    date: "10-2023 - Current",
   },
 ] as const;
 
@@ -211,17 +248,17 @@ export const skillsData = [
   "React",
   "Redux",
   "Next.js",
-  " Three.js",
+  "Three.js",
   "React Native ",
   "Flutter",
-  " Objective-C",
+  "Objective-C",
   "Node",
   "Express",
   "Python",
   "Tailwind",
   "PostgreSQL",
   "MongoDB",
-  " CI/CD ",
+  "CI/CD",
   "DevOps",
   "Jest",
   "Unit Testing",
