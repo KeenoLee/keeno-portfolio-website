@@ -125,7 +125,7 @@ export const experiencesData = [
   },
   {
     title: "Software Developer",
-    location: "Hong Kong (Remote) - Freelance",
+    location: "Hong Kong (Remote) - Volunteer",
     company: "Playsmart",
     description: [
       {
